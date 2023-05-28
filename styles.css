@@ -1,5 +1,40 @@
-@media (){
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* @media (){
  ...{
-    
+
  }
+} */
+
+nav {
+    width: 400px;
+    height: 100%;
+    display: block;
+    border: solid 2px;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    left: 0;
+    position: fixed;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 10px;
+}
+
+main {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+li {
+    list-style: none;
 }
